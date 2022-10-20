@@ -7,4 +7,5 @@ Turn the Gears On!
 neovim
 tree
 lua
+net-tools
 ```
