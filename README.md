@@ -8,4 +8,5 @@ neovim
 tree
 lua
 net-tools
+asdf
 ```
