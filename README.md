@@ -1,4 +1,4 @@
-# My Personal Config
+# Personal Config
 
 Turn the Gears On!
 
@@ -10,3 +10,15 @@ lua
 net-tools
 asdf
 ```
+
+### Nvim Folder Structure
+```
+.
+└── nvim
+    └── after
+        └── plugin
+    └── lua
+        └── config
+    └── init.lua
+```
+
