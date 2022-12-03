@@ -16,4 +16,5 @@ vim.o.incsearch = true
 -- Others
 vim.o.hidden = true
 vim.o.swapfile = false
+vim.o.signcolumn = "yes"
 
