@@ -2,13 +2,13 @@
 
 Turn the Gears On!
 
-### Installed packages
+### Installed Packages
 ```bash
 neovim
-tree
-lua
-net-tools
+tmux
 asdf
+tree
+net-tools
 ```
 
 ### Nvim Folder Structure
