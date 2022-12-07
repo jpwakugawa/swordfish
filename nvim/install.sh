@@ -1,14 +1,14 @@
-NVIM_FOLDER=~/.config/nvim
+#!/usr/bin/bash
 
-configure_nvim(){
-	# Check if nvim folder exists
-	if [ ! -d $NVIM_FOLDER ] 
-	then
-		mkdir -p "$NVIM_FOLDER"
-	fi
+configure_nvim() {
+    mkdir -p ~/.config/nvim/after/plugin
+    mkdir -p ~/.config/nvim/lua/config
 
-	# Copy the configuration file
-	cp init.lua ~/.config/nvim/
+    # copy wholesale
+    for f in `find . -regex ".*\.vim$\|.*\.lua$"`;do
+        rm -rf ~/.config/nvim/$f
+        cp $f ~/.config/nvim/$f
+    done
 }
 
 configure_nvim
