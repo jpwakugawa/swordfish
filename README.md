@@ -12,13 +12,16 @@ net-tools
 ```
 
 ### Nvim Folder Structure
-```
+```tree
 .
-└── nvim
-    └── after
-        └── plugin
-    └── lua
-        └── config
-    └── init.lua
+├── after
+│   └── plugin
+│       └── color.lua
+├── init.lua
+└── lua
+    └── config
+        ├── init.lua
+        ├── packer.lua
+        └── set.lua
 ```
 
