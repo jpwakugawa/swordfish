@@ -4,9 +4,9 @@ Turn the Gears On!
 
 ### Installed Packages
 ```bash
-neovim
+neovim + packer
+zsh + ohmyzsh
 tmux
-zsh
 asdf
 tree
 net-tools
