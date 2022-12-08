@@ -6,6 +6,7 @@ Turn the Gears On!
 ```bash
 neovim
 tmux
+zsh
 asdf
 tree
 net-tools
