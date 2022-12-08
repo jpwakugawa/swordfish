@@ -14,7 +14,7 @@ configure_nvim() {
 configure_nvim
 if [ $? -eq 0 ]
 then
-	echo "Configuration finished!"
+	echo "Vim Configuration finished!"
 else
-	echo "Error during configuration..." 
+	echo "Error during vim configuration..." 
 fi
