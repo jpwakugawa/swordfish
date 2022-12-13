@@ -1,22 +1,10 @@
 #!/usr/bin/bash
 
-configure_tmux() {
-    cp .tmux.conf ~/.config/
-    tmux source-file ~/.config/.tmux.conf
-}
+configure_minimal() {
+    cp .tmux.conf ~/
+    tmux source-file ~/.tmux.conf
 
-configure_tmux
-if [ $? -eq 0 ]
-then
-	echo "Tmux configuration ... OK"
-else
-	echo "Error during tmux configuration..." 
-fi
-
-configure_nvim() {
-    mkdir -p ~/.config/nvim/after/plugin
-    mkdir -p ~/.config/nvim/lua/config
-
+    mkdir -p ~/.config/nvim
     # copy wholesale
     for f in `find . -regex ".*\.vim$\|.*\.lua$"`;do
         rm -rf ~/.config/nvim/$f
@@ -24,12 +12,11 @@ configure_nvim() {
     done
 }
 
-configure_nvim
+configure_minimal
 if [ $? -eq 0 ]
 then
-	echo "Vim configuration ... OK"
-    echo "Minimal Setup Finished!"
+	echo "Minimal configuration ... OK"
 else
-	echo "Error during vim configuration..." 
+	echo "Error during minimal configuration..." 
 fi
 
