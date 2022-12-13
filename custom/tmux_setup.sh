@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
 configure_tmux() {
-    cp .tmux.conf ~/.config/
-    tmux source-file ~/.config/.tmux.conf
+    cp .tmux.conf ~/
+    tmux source-file ~/.tmux.conf
 }
 
 configure_tmux
