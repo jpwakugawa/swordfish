@@ -7,9 +7,11 @@ Turn the Gears On!
 neovim + packer
 zsh + ohmyzsh
 tmux
-asdf
 tree
 net-tools
+asdf
+insomnia
+obsidian
 ```
 
 ### Nvim Folder Structure
