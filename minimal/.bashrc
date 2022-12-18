@@ -1,5 +1,5 @@
 # Configure Python Environment
-if [ -n "venv" ]; then
+if [ -d "venv" ]; then
     source ./venv/bin/activate
 fi
 
