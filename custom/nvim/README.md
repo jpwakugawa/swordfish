@@ -8,7 +8,7 @@ Customized NVIM setup
     :PackerSync
     ```
 
-- Also important to get that nice background and colors
+- Also important to get that nice background and colors:
     ```nvim
     :lua ColorMyPencils()
     ```
