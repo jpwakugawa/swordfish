@@ -1,4 +1,4 @@
-# Personal Config
+# My Setup
 
 Turn the Gears On!
 
@@ -14,13 +14,14 @@ insomnia
 obsidian
 ```
 
-### Nvim Folder Structure
+### (Custom) Nvim Folder Structure
 ```tree
 .
 ├── after
 │   └── plugin
 │       ├── color.lua
-│       └── telescope.lua
+│       ├── telescope.lua
+│       └── treesitter.lua
 ├── init.lua
 ├── lua
 │   └── config
