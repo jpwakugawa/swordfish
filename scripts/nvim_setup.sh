@@ -6,6 +6,7 @@ configure_nvim() {
 
     # copy wholesale
     for f in `find . -regex ".*\.vim$\|.*\.lua$"`;do
+        echo $f
         rm -rf ~/.config/nvim/$f
         cp $f ~/.config/nvim/$f
     done
