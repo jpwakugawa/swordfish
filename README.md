@@ -14,6 +14,11 @@ Configure your setup according to your needs.
     ./start_mode -c
     ```
 
+- Download dotfiles
+    ```bash
+    curl --remote-name-all  https://raw.githubusercontent.com/jpwakugawa/swordfish/main/dotfiles/{.tmux.conf,.vimrc,.zshrc}
+    ```
+
 ### (Custom) Nvim Folder Structure
 ```tree
 .
