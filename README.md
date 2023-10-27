@@ -1,5 +1,5 @@
-# My Setup
-Turn the Gears On!
+<h1 align="center">Turn the Gears On!</h1>
+<p align="center"><img src="./assets/vim-meme.jpg" width="511" height="520"></p>
 
 ### Swordfish MODE
 Configure your setup according to your needs.
