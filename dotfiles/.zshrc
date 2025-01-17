@@ -1,3 +1,7 @@
+# ZSH Configs
+ZSH_THEME="robbyrussell"
+RPROMPT="[%*]"
+
 # Git Aliases
 alias gst="git status"
 alias gad="git add ."
